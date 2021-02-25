@@ -14,4 +14,5 @@ abbr -a c "clear"
 # Miscellaneous
 abbr -a resource "source ~/.config/fish/config.fish"
 abbr -a fishconfig "nvim ~/.config/fish/config.fish"
+abbr -a alacconfig "nvim ~/.config/alacritty/alacritty.yml"
 
