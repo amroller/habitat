@@ -1,13 +1,17 @@
 # Window customization
 window:
   dimensions:
-    columns: 200
-    lines: 64
+   columns: 200
+   lines: 64
   padding:
-    x: 10
-    y: 10
+   x: 10
+   y: 10
   decorations: full
 
+# Window opacity
+background_opacity: 1.0
+
+# Window scrolling
 scrolling:
   history: 10000
   multiplier: 3
@@ -18,7 +22,7 @@ font:
     family: Fira Code
     style: Regular
   bold:
-    family: Fira Code 
+    family: Fira Code
     style: Bold
   italic:
     family: Fira Code
@@ -28,16 +32,17 @@ font:
     style: Bold Italic
   size: 11.5
   offset:
-    x: 0
-    y: 0
+   x: 0
+   y: 0
   glyph_offset:
-    x: 0
-    y: 0
-  use_thin_strokes: false
+   x: 0
+   y: 0
 
+# Should bold text be drawn using bright color variants?
 draw_bold_text_with_bright_colors: true
 
-# Base16 Gruvbox dark, hard 256
+# Base16 Gruvbox dark, hard 256 - alacritty color config
+# Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 colors:
   primary:
     background: '0x1d2021'
@@ -63,7 +68,6 @@ colors:
     magenta: '0xd3869b'
     cyan:    '0x8ec07c'
     white:   '0xfbf1c7'
-
   indexed_colors:
     - { index: 16, color: '0xfe8019' }
     - { index: 17, color: '0xd65d0e' }
@@ -72,8 +76,11 @@ colors:
     - { index: 20, color: '0xbdae93' }
     - { index: 21, color: '0xebdbb2' }
 
-# Environment
+# Alacritty live reload configs
+live_config_reload: true
+
+# Shell environment
 shell:
-  program: /usr/local/bin/fish
-  args:
-    - --login
+ program: /usr/local/bin/fish
+ args:
+   - --login
