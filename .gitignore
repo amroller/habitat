@@ -1,0 +1,11 @@
+# Auto generated files
+.DS_Store*
+Thumbs.db
+Icon?
+
+# Fish shell
+.config/fish/fish_variables
+
+# Visual Studio Code
+.vscode/
+

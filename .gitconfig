@@ -1,0 +1,18 @@
+[user]
+	name = Aaron Roller
+	email = AaronMichaelRoller@gmail.com
+	username = amroller
+[core]
+	excludesfile = ~/.gitignore
+	editor = nvim
+[color]
+	ui = true
+[pager]
+	branch = false
+[alias]
+	c = commit
+	p = push
+	fp = push --force-with-lease
+	s = status
+	st = status
+	last = log -1 HEAD
