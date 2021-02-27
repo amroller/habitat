@@ -2,6 +2,7 @@
 " # Editor settings
 " =============================================================================
 
+filetype plugin indent on
 set noerrorbells
 set autoindent
 set encoding=utf-8
@@ -43,6 +44,13 @@ call plug#begin('~/.vim/plugged')
 
 " Base16 colorschemes
 Plug 'chriskempson/base16-vim'
+
+" Language support
+Plug 'cespare/vim-toml'
+Plug 'stephpy/vim-yaml'
+Plug 'rust-lang/rust.vim'
+Plug 'plasticboy/vim-markdown'
+Plug 'dag/vim-fish'
 
 call plug#end()
 
